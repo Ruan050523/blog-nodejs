@@ -14,9 +14,9 @@
 
 //passando parâmetros para o body
     const blogs = [
-        // {titulo: 'Chamander', conteudo: 'A ponta de seu rabo está constantemente em chamas e se for apagada pode resultar em sua morte.'},
-        // {titulo: 'Squirtle', conteudo: 'Seu casco reduz a resistência contra a água fazendo com que ele nade mais rápido.'},
-        // {titulo: 'Bulbasaur', conteudo: 'Ao evoluir o bulbo começa a desabrochar até se tornar uma grande flor na evolução final.'},
+        {titulo: 'Chamander', conteudo: 'A ponta de seu rabo está constantemente em chamas e se for apagada pode resultar em sua morte.'},
+        {titulo: 'Squirtle', conteudo: 'Seu casco reduz a resistência contra a água fazendo com que ele nade mais rápido.'},
+        {titulo: 'Bulbasaur', conteudo: 'Ao evoluir o bulbo começa a desabrochar até se tornar uma grande flor na evolução final.'},
     ];
     res.render('index', { titulo: 'Home', blogs});
 });
